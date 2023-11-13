@@ -6,5 +6,7 @@
 
 ## About
 
-A module for Foundry VTT to notify any problems with broadcasting audio or video. It will show a notification on the top of the screen.
+A module for Foundry VTT to notify of any problems with broadcasting audio or video, like browser permissions. Your players will see a notification like this:
+
+![Notifications](docs/screenshot.png)
 
