@@ -29,14 +29,14 @@ async function detectMicrophoneIssues() {
     const status = await checkMicrophoneStatus()
     switch(status) {
         case "prompt":
-            ui.notifications.warn(game.i18n.localize('AVNOTIFICATION.PromptBrowserMicrophonePermission'));
+            ui.notifications.warn(game.i18n.localize('avissues.PromptBrowserMicrophonePermission'));
             break;
         case "denied":
-            ui.notifications.warn(game.i18n.localize('AVNOTIFICATION.DeniedBrowserMicrophonePermission'));
+            ui.notifications.warn(game.i18n.localize('avissues.DeniedBrowserMicrophonePermission'));
             break;
     }
     if (!game.user.hasPermission('BROADCAST_AUDIO')) {
-        ui.notifications.warn(game.i18n.localize('AVNOTIFICATION.NoBroadcastAudioPermission'));
+        ui.notifications.warn(game.i18n.localize('avissues.NoBroadcastAudioPermission'));
     }
 }
 async function detectCameraIssues() {
@@ -45,14 +45,14 @@ async function detectCameraIssues() {
     const status = await checkCameraStatus()
     switch(status) {
         case "prompt":
-            ui.notifications.warn(game.i18n.localize('AVNOTIFICATION.PromptBrowserCameraPermission'));
+            ui.notifications.warn(game.i18n.localize('avissues.PromptBrowserCameraPermission'));
             break;
         case "denied":
-            ui.notifications.warn(game.i18n.localize('AVNOTIFICATION.DeniedBrowserCameraPermission'));
+            ui.notifications.warn(game.i18n.localize('avissues.DeniedBrowserCameraPermission'));
             break;
     }
     if (!game.user.hasPermission('BROADCAST_VIDEO')) {
-        ui.notifications.warn(game.i18n.localize('AVNOTIFICATION.NoBroadcastVideoPermission'));
+        ui.notifications.warn(game.i18n.localize('avissues.NoBroadcastVideoPermission'));
     }
 }
 

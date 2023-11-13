@@ -1,8 +1,8 @@
 {
-    "AVNOTIFICATION.PromptBrowserMicrophonePermission": "Your browser is requesting permission to use your microphone. Please click Allow.",
-    "AVNOTIFICATION.DeniedBrowserMicrophonePermission": "Your browser has denied permission to use your microphone. Please click Allow.",
-    "AVNOTIFICATION.PromptBrowserCameraPermission": "Your browser is requesting permission to use your camera. Please click Allow.",
-    "AVNOTIFICATION.DeniedBrowserCameraPermission": "Your browser has denied permission to use your camera. Please click Allow.",
-    "AVNOTIFICATION.NoBroadcastAudioPermission": "You have not denied permission to broadcast audio in this world.",
-    "AVNOTIFICATION.NoBroadcastVideoPermission": "You have not denied permission to broadcast video in this world."
+    "avissues.PromptBrowserMicrophonePermission": "Your browser is requesting permission to use your microphone. Please click Allow.",
+    "avissues.DeniedBrowserMicrophonePermission": "Your browser has denied permission to use your microphone. Please click Allow.",
+    "avissues.PromptBrowserCameraPermission": "Your browser is requesting permission to use your camera. Please click Allow.",
+    "avissues.DeniedBrowserCameraPermission": "Your browser has denied permission to use your camera. Please click Allow.",
+    "avissues.NoBroadcastAudioPermission": "You have not denied permission to broadcast audio in this world.",
+    "avissues.NoBroadcastVideoPermission": "You have not denied permission to broadcast video in this world."
 }

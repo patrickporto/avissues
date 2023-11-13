@@ -1,13 +1,13 @@
 {
-    "id": "avnotification",
+    "id": "avissues",
     "version": "11.0.0",
     "compatibility": {
         "minimum": "11",
         "verified": "11",
         "maximum": "11"
     },
-    "title": "A/V Notification",
-    "description": "A module for Foundry VTT to notify any problems with broadcasting audio or video",
+    "title": "A/V Issues",
+    "description": "A module for Foundry VTT to notify of any problems with broadcasting audio or video",
     "languages": [
         {
             "lang": "en",
@@ -15,8 +15,8 @@
             "path": "lang/en.json"
         }
     ],
-    "url": "https://github.com/patrickporto/avnotification",
+    "url": "https://github.com/patrickporto/avissues",
     "esmodules": [
-        "avnotification.js"
+        "avissues.js"
     ]
 }

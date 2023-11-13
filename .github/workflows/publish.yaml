@@ -4,7 +4,7 @@ on:
         types: [published]
 
 env:
-    PKG_NAME: avnotification
+    PKG_NAME: avissues
     MANIFEST_FILE_PATH: dist/module.json
     RELEASE_NAME: ${{ github.event.release.tag_name }}
 
