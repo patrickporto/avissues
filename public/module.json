@@ -1,13 +1,13 @@
 {
-    "id": "fvtt-module-template",
+    "id": "avnotification",
     "version": "11.0.0",
     "compatibility": {
         "minimum": "11",
         "verified": "11",
         "maximum": "11"
     },
-    "title": "fvtt-module-template",
-    "description": "A Foundry VTT module template",
+    "title": "A/V Notification",
+    "description": "A module for Foundry VTT to notify any problems with broadcasting audio or video",
     "languages": [
         {
             "lang": "en",
@@ -15,8 +15,8 @@
             "path": "lang/en.json"
         }
     ],
-    "url": "https://github.com/patrickporto/fvtt-module-template",
+    "url": "https://github.com/patrickporto/avnotification",
     "esmodules": [
-        "fvtt-module-template.js"
+        "avnotification.js"
     ]
 }

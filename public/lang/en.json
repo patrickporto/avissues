@@ -1,4 +1,6 @@
 {
-    "MODULE.Debug": "Debug",
-    "MODULE.DebugHint": "Enable debug logging"
+    "AVNOTIFICATION.PromptBrowserMicrophonePermission": "Your browser is requesting permission to use your microphone. Please click Allow.",
+    "AVNOTIFICATION.DeniedBrowserMicrophonePermission": "Your browser has denied permission to use your microphone. Please click Allow.",
+    "AVNOTIFICATION.PromptBrowserCameraPermission": "Your browser is requesting permission to use your camera. Please click Allow.",
+    "AVNOTIFICATION.DeniedBrowserCameraPermission": "Your browser has denied permission to use your camera. Please click Allow."
 }
